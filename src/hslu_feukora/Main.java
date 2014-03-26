@@ -10,6 +10,7 @@ public class Main {
 		System.out.println("neu von Alex geschrieben");
 
 		// der kommt von tim
+		// der ist auch nice!
 	}
 
 }
