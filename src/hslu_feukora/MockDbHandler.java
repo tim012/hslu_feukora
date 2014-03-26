@@ -23,6 +23,8 @@ public class MockDbHandler {
 
 		EntityManager em = emf.createEntityManager();
 		em.getTransaction().begin();
+		em.persist(username);
+		em.persist(password);
 
 	}
 }
