@@ -4,5 +4,8 @@
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/horsta1/git/hslu_feukora/eclipselink.jar"/>
+	<classpathentry kind="lib" path="C:/Users/horsta1/git/hslu_feukora/javax.persistence_2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/horsta1/git/hslu_feukora/postgresql-9.1-902.jdbc4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
