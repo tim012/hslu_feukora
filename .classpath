@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="C:/Users/horsta1/git/hslu_feukora/eclipselink.jar"/>
 	<classpathentry kind="lib" path="C:/Users/horsta1/git/hslu_feukora/javax.persistence_2.0.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/horsta1/git/hslu_feukora/postgresql-9.1-902.jdbc4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

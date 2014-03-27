@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.feukora.controller.OverviewController">
+<children><Button layoutX="372.0" layoutY="343.0" mnemonicParsing="false" onMouseClicked="#handleStart" text="Login" /><Button layoutX="437.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleEnd" text="Exit" /><ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+<image>
+<Image url="@../../../../ressources/A2_Tech_Logo_complete.png" />
+</image></ImageView><TextField fx:id="benutzer" layoutX="200.4921875" layoutY="187.5" /><Label layoutX="68.0048828125" layoutY="191.5" text="Benutzer" /><PasswordField fx:id="passwort" layoutX="200.73828125" layoutY="231.5" /><Label layoutX="68.009765625" layoutY="235.5" text="Passwort" /><CheckBox layoutX="238.78125" layoutY="283.5" mnemonicParsing="false" text="Passwort anzeigen" />
+</children></AnchorPane>

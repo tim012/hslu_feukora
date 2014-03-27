@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<children><Button layoutX="655.0" layoutY="627.0" mnemonicParsing="false" text="Löschen" /><Button layoutX="587.0" layoutY="627.0" mnemonicParsing="false" text="Ändern" /><Button layoutX="506.0" layoutY="627.0" mnemonicParsing="false" text="Anzeigen" /><Label alignment="CENTER" layoutX="261.0" layoutY="57.0" prefHeight="17.0" prefWidth="225.0" text="Terminverwaltung" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+<font>
+<Font size="24.0" />
+</font></Label><TableView layoutX="151.0" layoutY="109.0" prefHeight="437.0" prefWidth="615.0">
+  <columns>
+    <TableColumn prefWidth="75.0" text="Name" />
+    <TableColumn prefWidth="75.0" text="Vorname" /><TableColumn prefWidth="75.0" text="Strasse" /><TableColumn prefWidth="75.0" text="PLZ" /><TableColumn prefWidth="75.0" text="Ort" /><TableColumn prefWidth="75.0" text="Kanton" /><TableColumn prefWidth="75.0" text="Land" />
+  </columns>
+</TableView>
+</children></AnchorPane>
